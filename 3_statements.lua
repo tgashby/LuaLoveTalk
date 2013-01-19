@@ -19,6 +19,6 @@ function Global_VS_Local()
     print(x, y) -- No problem here!
 end
 
-Global_VS_Local() -- Small subtlety, 'imGlobal' doesn't exist until the function is actually called, Lua is INTERPRETED, not compiled.
+Global_VS_Local() -- Small subtlety, 'imGlobal' doesn't exist until the function is actually called
 
 print(imGlobal) -- imGlobal now exists in the global namespace!
