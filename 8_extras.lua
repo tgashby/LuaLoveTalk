@@ -30,5 +30,6 @@ VariableArgs("a", 1, 2, {hello = "hello", 1, 2})
 
 -- metatables
 -- libraries: os, math, debug, string, etc
+-- the C API
 
 -- http://www.lua.org/manual/5.1/
